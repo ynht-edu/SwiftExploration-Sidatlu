@@ -16,6 +16,8 @@
 		24F0B8882B5A71EF00569684 /* SwiftExploration_SidatluTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0B8872B5A71EF00569684 /* SwiftExploration_SidatluTests.swift */; };
 		24F0B8922B5A71EF00569684 /* SwiftExploration_SidatluUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0B8912B5A71EF00569684 /* SwiftExploration_SidatluUITests.swift */; };
 		24F0B8942B5A71EF00569684 /* SwiftExploration_SidatluUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0B8932B5A71EF00569684 /* SwiftExploration_SidatluUITestsLaunchTests.swift */; };
+		24F0B8A12B5A72D600569684 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0B8A02B5A72D600569684 /* Sign.swift */; };
+		24F0B8A32B5A74E700569684 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0B8A22B5A74E700569684 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		24F0B88D2B5A71EF00569684 /* SwiftExploration-SidatluUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftExploration-SidatluUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F0B8912B5A71EF00569684 /* SwiftExploration_SidatluUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExploration_SidatluUITests.swift; sourceTree = "<group>"; };
 		24F0B8932B5A71EF00569684 /* SwiftExploration_SidatluUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExploration_SidatluUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24F0B8A02B5A72D600569684 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		24F0B8A22B5A74E700569684 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				24F0B8792B5A71EF00569684 /* Assets.xcassets */,
 				24F0B87B2B5A71EF00569684 /* LaunchScreen.storyboard */,
 				24F0B87E2B5A71EF00569684 /* Info.plist */,
+				24F0B8A02B5A72D600569684 /* Sign.swift */,
+				24F0B8A22B5A74E700569684 /* GameState.swift */,
 			);
 			path = "SwiftExploration-Sidatlu";
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			files = (
 				24F0B8752B5A71ED00569684 /* ViewController.swift in Sources */,
 				24F0B8712B5A71ED00569684 /* AppDelegate.swift in Sources */,
+				24F0B8A32B5A74E700569684 /* GameState.swift in Sources */,
+				24F0B8A12B5A72D600569684 /* Sign.swift in Sources */,
 				24F0B8732B5A71ED00569684 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
