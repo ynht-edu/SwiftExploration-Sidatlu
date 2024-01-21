@@ -12,4 +12,17 @@ enum GameState {
     case win
     case lose
     case draw
+    
+    var startMessage: String {
+        return "Mulai gamenya!"
+    }
+    var winMessage: String {
+        return "Selamat, kamu menang!"
+    }
+    var loseMessage: String {
+        return "Kamu kalah!"
+    }
+    var drawMessage: String {
+        return "pertandingan draw!"
+    }
 }
